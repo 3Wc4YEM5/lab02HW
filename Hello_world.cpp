@@ -1,3 +1,8 @@
 #include <iostream>
 using namespace std;
-int main() { cout << "Hello world";}
+int main() { 
+    string name;
+    cout << "Enter name ";
+    cin >> name;
+    cout << "Hello world from " << name;
+}
